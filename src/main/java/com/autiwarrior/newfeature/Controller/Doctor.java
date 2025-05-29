@@ -3,7 +3,7 @@ package com.autiwarrior.newfeature.Controller;
 import com.autiwarrior.newfeature.Model.Dto.DoctorReqDto;
 import com.autiwarrior.newfeature.Model.Dto.DoctorResDto;
 import com.autiwarrior.newfeature.Model.Entity.DoctorEntity;
-import com.autiwarrior.newfeature.Model.Mapper.DoctorMapper;
+import com.autiwarrior.newfeature.Model.Mapper.impl.DoctorMapper;
 import com.autiwarrior.newfeature.Repository.DoctorRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
